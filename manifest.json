@@ -1,0 +1,10 @@
+{
+  "Name": "StardewOurGrandpa",
+  "Author": "QingChenW",
+  "Version": "1.0.0",
+  "Description": "Make Grandpa's evaluation consider all the farmers",
+  "UniqueID": "qingchenw.stardewourgrandpa",
+  "EntryDll": "StardewOurGrandpa.dll",
+  "MinimumApiVersion": "4.0.0",
+  "UpdateKeys": []
+}
