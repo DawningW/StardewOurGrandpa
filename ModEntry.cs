@@ -43,7 +43,8 @@ public class ModEntry : Mod
 
             if (farmers.Exists(farmer => farmer.hasSkullKey)) score++;
 
-            bool hasCommunityCenter = Game1.isLocationAccessible("CommunityCenter");
+            // bool hasCommunityCenter = Game1.isLocationAccessible("CommunityCenter");
+            bool hasCommunityCenter = Utility.HasAnyPlayerSeenEvent("191393"); // fix bug with DedicatedServer Mod
             if (hasCommunityCenter || farmers.Exists(farmer => farmer.hasCompletedCommunityCenter())) score++;
             if (hasCommunityCenter) score += 2;
 
